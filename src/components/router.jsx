@@ -7,6 +7,7 @@ import UsedCarCompnent from './usedCarCompnent'
 import CampingPlaceComponent from './campingPlaceComponent'
 import TuningComponent from './TuningComponent'
 import FooterCompent from './footerComponent'
+import CaruselComponent from './Carusel'
 
 
 
@@ -23,6 +24,7 @@ const RouterComponent = () => {
             <Route path="/tuning" element={<TuningComponent/>}/>
             <Route path="/usedCar" element = {<UsedCarCompnent/>}/>
             <Route path="/campingPlace" element ={<CampingPlaceComponent/>}/>
+            <Route path= "/carusel" element = {<CaruselComponent/>}/>
         </Routes>
        <FooterCompent/>
     </>

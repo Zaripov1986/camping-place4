@@ -11,7 +11,9 @@ const NavbarComponent = () => {
        
         
      <ContLeft>
+      <Link to={"/carusel"}>
      <img src={camper} alt="camper-img" />
+     </Link>
      </ContLeft>
      <ContRight>
         <DivWrap>

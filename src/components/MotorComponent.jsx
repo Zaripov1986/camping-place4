@@ -1,5 +1,5 @@
 import React from 'react'
-import { BtnCont,  Chiziq, Chiziq2, Chiziq3, Container,  DataCont,  DivLeft, DivRight, MidBarCont, MidBarContLeft, MidBarContRight, WallPaper } from './motorStyle'
+import { BtnCont,  Chiziq, Chiziq2, Chiziq3, Container, DataCont, DivLeft, DivRight, MidBarCont, MidBarContLeft, MidBarContRight, WallPaper } from './motorStyle'
 import grommets from "../assests/grommet-icons.svg"
 import celebrate from "../assests/clarity_grid-view-solid.svg"
 import list from "../assests/ic_round-view-list.svg"
@@ -8,8 +8,6 @@ import Rectangle705 from "../assests/Rectangle705.svg"
 import imgcar from "../assests/imagcar.svg"
 import starcont from "../assests/bx_bxs-star.svg"
 import count from "../assests/250$.svg"
-
-
 
 
 const MotorComponent = () => {
@@ -163,6 +161,7 @@ const MotorComponent = () => {
         </div>
          <div style={{display:"flex"}}>
         <div style={{border:"1px solid rgba(55, 55, 55, 0.30)",width:"41px",height:"30px",borderRadius:"5px 0px 0px 5px",display:"flex",alignItems:"center",justifyContent:"center"}}>
+
          <img src={celebrate} alt="celebrate-icon" style={{width:"15px", border:"none"}}/>
         </div>
         <div style={{border:"1px solid rgba(55, 55, 55, 0.30)",width:"41px",height:"30px",borderRadius:"0px 5px  5px 0px",display:"flex",alignItems:"center",justifyContent:"center"}}>

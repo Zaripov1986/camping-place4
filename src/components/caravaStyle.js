@@ -29,12 +29,13 @@ p{
 export const MidBarCont = styled.div`
 display: flex;
 padding: 10px;
+justify-content: center;
 `;
 export const MidBarContLeft = styled.div`
- flex: 1;
+ //flex: 1;
 `;
 export const MidBarContRight = styled.div`
-flex: 3;
+//flex: 3;
 
 
 `;
@@ -45,7 +46,27 @@ gap: 20px;
 margin-top: 40px;
 `;
 
+export const ChildWrap = styled.div`
+width: 223px;
+height: 307px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+p{
+    color: var(--text, #373737);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 
+}
+`;
 export const DivLeft = styled.div`
 display: flex;
 color: var(--text, #373737);
@@ -68,7 +89,7 @@ export const DivRight = styled.div`
 flex: 2;
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: end;
 gap: 15px;
 
 p{
@@ -112,7 +133,7 @@ border-radius: 5px 0px 0px 5px;
 border: 1px solid red;
  `;
 export const Chiziq = styled.div`
-width: 90%;
+//width: 90%;
 height: 1px;
 background: rgba(55, 55, 55, 0.30);
 margin-top: 3px;

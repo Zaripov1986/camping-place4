@@ -1,16 +1,20 @@
 import React from 'react'
-import { BtnCont, Chiziq, Chiziq2, Chiziq3, Container, DataCont, DivLeft, DivRight, MidBarCont, MidBarContLeft, MidBarContRight, WallPaper } from './caravaStyle'
+import { BtnCont, ChildWrap, Chiziq, Chiziq2, Chiziq3, Container, DataCont, DivLeft, DivRight, MidBarCont, MidBarContLeft, MidBarContRight, WallPaper } from './caravaStyle'
 import grommets from "../assests/grommet-icons.svg"
 import celebrate from "../assests/clarity_grid-view-solid.svg"
 import list from "../assests/ic_round-view-list.svg"
 import grommet from "../assests/grommet-icons copy.svg"
 import Rectangle705 from "../assests/Rectangle705.svg"
-import imgcar from "../assests/imagcar.svg"
 import starcont from "../assests/bx_bxs-star.svg"
 import count from "../assests/250$.svg"
+import { caravan } from './mock/caravan'
+
+
 
 
 const CaravanComponent = () => {
+  const data = caravan.maindata;
+  console.log(data);
   return (
     <Container>
    <WallPaper>
@@ -173,443 +177,28 @@ const CaravanComponent = () => {
       </div>
       <Chiziq></Chiziq>
       <DataCont>
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-      
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-      
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-
-
-      <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
-
-
-
-
-  <div style={{marginTop:"20px"}}>
-      <img src={imgcar} alt="imgcar" />
-      <div style={{display:"flex",gap:"45px"}}>
-      <div>
-      <p>Name of the car</p>
-      <p style={{fontSize:"12px"}}>Brand name</p>
-      </div>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <img src={starcont} alt="starcont" width={"14px"}/>
-      <h4>5.3</h4>
-      </div>
-      </div>
-      <img src={count} alt="count" style={{marginTop:"18px"}}/>
-      <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
-        <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
-      </div>
-      </div>
+      {data.map((value,index)=>{
+          return(
+            <ChildWrap>
+            <img src={value.car.photo} alt="imgcar" style={{width:"202.42px",borderRadius:"15px",height:"145px"}}/>
+            <div style={{display:"flex",gap:"45px"}}>
+            <div>
+            <p>Name of the car</p>
+            <p style={{fontSize:"12px"}}>Brand name</p>
+            </div>
+            <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
+            <img src={starcont} alt="starcont" width={"14px"}/>
+            <h4 style={{color:"#373737"}}>5.3</h4>
+            </div>
+            </div>
+            <img src={count} alt="count" style={{marginTop:"18px",paddingRight:"125px"}}/>
+            <div  style={{display:"flex",gap:"10px",marginTop:"21px"}}>
+              <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Order</button>
+              <button style={{width:"94px",height:"35px",borderRadius:"10px",border:"1px solid #006DAB",color:"#006DAB",fontFamily:"Montserrat",fontSize:"14px",fontStyle:"normal",fontWeight:"700px",lineHeight:"normal"}}>Compare</button>
+            </div>
+            </ChildWrap>
+          )
+        })}
 
       </DataCont>
      </MidBarContRight>

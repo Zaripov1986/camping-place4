@@ -29,12 +29,13 @@ p{
 export const MidBarCont = styled.div`
 display: flex;
 padding: 10px;
+justify-content: center;
 `;
 export const MidBarContLeft = styled.div`
- flex: 1;
+ //flex: 1;
 `;
 export const MidBarContRight = styled.div`
-flex: 3;
+//flex: 3;
 
 
 `;
@@ -68,7 +69,7 @@ export const DivRight = styled.div`
 flex: 2;
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: end;
 gap: 15px;
 
 p{
@@ -112,7 +113,7 @@ border-radius: 5px 0px 0px 5px;
 border: 1px solid red;
  `;
 export const Chiziq = styled.div`
-width: 90%;
+//width: 90%;
 height: 1px;
 background: rgba(55, 55, 55, 0.30);
 margin-top: 3px;

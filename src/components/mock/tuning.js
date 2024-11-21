@@ -94,7 +94,7 @@ export const tuning = {
         id: 4,
         car: {
          photo: `https://avatars.mds.yandex.net/i?id=1bfa8337a82a888687babdc301f55c52d5f1919b-7284491-images-thumbs&n=13`,
-          name: "르벤투스 차박S",
+          name: "르벤투스 차박",
           cost: "66,100,000",
           type: "르노마스터",
           license: "1종 보통",

@@ -11,7 +11,7 @@ const NavbarComponent = () => {
        
         
      <ContLeft>
-      <Link to={"/carusel"}>
+     <Link to={"/carusel"}>
      <img src={camper} alt="camper-img" />
      </Link>
      </ContLeft>
@@ -20,7 +20,7 @@ const NavbarComponent = () => {
            <NavLeft>
                 <div style={{display:"flex"}}>
                 <Link to={"/motor"}>
-                <p>Motor</p>
+                <p >Motor</p>
                 </Link>
                 <img src={grommet} alt="grommet-icon" /> 
                 </div>
@@ -50,7 +50,9 @@ const NavbarComponent = () => {
      <NavRight>
         <div style={{display:"flex",gap:"10px"}}>
      <img src={clarity_shopping} alt="clarity_shopping-icon" width={"27px"}/>
+     <Link to={'/sign-in'}>
      <img src={bxbxsuser} alt="bx_bxs-user-icon" width={"27px"}/>
+     </Link>
      </div>
      <div style={{display:"flex"}}>
      <p>En</p>

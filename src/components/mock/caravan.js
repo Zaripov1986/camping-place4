@@ -94,7 +94,7 @@ export const caravan = {
       id: 4,
       car: {
        photo: `https://avatars.mds.yandex.net/i?id=01ae6805faecd71b03a44e45febb966e232ac51f-4373853-images-thumbs&n=13`,
-        name: "르벤투스 차박S",
+        name: "르벤투스 차박",
         cost: "66,100,000",
         type: "르노마스터",
         license: "1종 보통",

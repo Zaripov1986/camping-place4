@@ -94,7 +94,7 @@ export const usedcar = {
         id: 4,
         car: {
          photo: `https://avatars.mds.yandex.net/i?id=e85dc3a27fe5f3f9b4bd9d9d3e550d5a34951c83-9541119-images-thumbs&n=13`,
-          name: "르벤투스 차박S",
+          name: "르벤투스 차박",
           cost: "66,100,000",
           type: "르노마스터",
           license: "1종 보통",

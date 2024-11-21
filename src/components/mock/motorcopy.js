@@ -94,7 +94,7 @@ export const campcar = {
       id: 4,
       car: {
        photo: `https://avatars.mds.yandex.net/i?id=f5b2d8cd8df2e2dccd00e4f00de312af6bcd7441-9223337-images-thumbs&n=13`,
-        name: "르벤투스 차박S",
+        name: "르벤투스 차박",
         cost: "66,100,000",
         type: "르노마스터",
         license: "1종 보통",

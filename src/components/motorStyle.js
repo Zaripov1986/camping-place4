@@ -34,6 +34,8 @@ export const MidBarCont = styled.div`
 display: flex;
 padding: 10px;
 justify-content: center;
+gap: 40px;
+margin-top: 30px;
 `;
 export const MidBarContLeft = styled.div`
  //flex: 1;
@@ -64,8 +66,9 @@ background: #FFF;
 box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
 display: flex;
 flex-direction: column;
-align-items: center;
 justify-content: center;
+padding: 12px;
+
 p{
     color: var(--text, #373737);
 font-family: Montserrat;
@@ -74,6 +77,16 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 
+}
+h1{
+    color: var(--blue, #006DAB);
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+margin-bottom: 7px;
 }
 `;
 
